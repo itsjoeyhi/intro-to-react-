@@ -12,18 +12,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
 
     <script type="text/babel">
-       class Greeting extends React.Component {
+       class Notes extends React.Component {
          render() {
            return (
              <div>
-               <h1>Hello World!</h1>
+               <h1>React Features</h1>
+               <ol>
+                <li>JSX</li>
+                <li>Virtual DOM</li>
+                <li>Components</li>
+                <li>Props</li>
+                <li>States</li>
+               </ol>
              </div>
            );
          }
        }
  
        ReactDOM.render(
-         <Greeting />, document.getElementById('app')
+         <Notes />, document.getElementById('app')
        );
     </script>
   </body>
